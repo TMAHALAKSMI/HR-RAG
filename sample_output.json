@@ -1,0 +1,50 @@
+{
+  "job_description": "Backend Developer — 2+ years experience with Java, Spring Boot, REST APIs and MySQL. Familiarity with Docker and CI/CD is a plus.",
+
+  "candidates_screened": [
+    {
+      "candidate_name": "Arjun",
+      "match_score": 78,
+      "years_experience": 3,
+      "matched_skills": ["Java", "Spring Boot", "MySQL", "REST APIs"],
+      "missing_skills": ["Docker", "CI/CD"],
+      "summary": "Strong backend fundamentals with hands-on Spring Boot and MySQL experience; lacks containerization exposure.",
+      "verdict": "Strong Match"
+    },
+    {
+      "candidate_name": "Divya",
+      "match_score": 22,
+      "years_experience": 1,
+      "matched_skills": [],
+      "missing_skills": ["Java", "Spring Boot", "MySQL", "REST APIs", "Docker", "CI/CD"],
+      "summary": "Frontend-focused profile with no backend experience relevant to this role.",
+      "verdict": "Not a Fit"
+    }
+  ],
+
+  "interview_questions_for_top_candidate": {
+    "candidate_name": "Arjun",
+    "questions": [
+      {
+        "category": "Technical",
+        "question": "Walk me through how you structured a REST API in Spring Boot on a recent project — controllers, services, and repositories."
+      },
+      {
+        "category": "Technical",
+        "question": "How have you handled connection pooling or query optimization when working with MySQL at scale?"
+      },
+      {
+        "category": "Gap Probe",
+        "question": "You haven't listed Docker experience — have you deployed an application in a containerized environment, even informally?"
+      },
+      {
+        "category": "Behavioral",
+        "question": "Tell me about a time a production bug traced back to a backend service you owned. How did you resolve it?"
+      },
+      {
+        "category": "Culture Fit",
+        "question": "How do you typically collaborate with frontend developers when defining a new API contract?"
+      }
+    ]
+  }
+}
